@@ -13,7 +13,17 @@ struct CustomTabBar: View {
     var body: some View {
         HStack(spacing: 0.0) {
             ForEach(Tab.allCases, id: \.rawValue) { tab in
-                Image(tab.rawValue)
+                
+                Button {
+                    withAnimation(.easeInOut) {
+                        currentTab = tab
+                    }
+                } label: {
+                    Image(tab.rawValue)
+                        .renderingMode(.template)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(.white)
+                }
             }
         }
         .frame(maxWidth: .infinity)
@@ -23,6 +33,6 @@ struct CustomTabBar: View {
 
 struct CustomTabBar_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTabBar(currentTab: .constant(.home))
+        ContentView()
     }
 }
