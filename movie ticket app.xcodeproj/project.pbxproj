@@ -24,6 +24,8 @@
 		9C6B5171293D28CC00843B5F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5170293D28CC00843B5F /* RoundButton.swift */; };
 		9C6B5173293D28EB00843B5F /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5172293D28EB00843B5F /* LargeButton.swift */; };
 		9C6B5175293D290700843B5F /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5174293D290700843B5F /* TicketView.swift */; };
+		9C6B5177293D2D0B00843B5F /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5176293D2D0B00843B5F /* TabData.swift */; };
+		9C6B5179293D342900843B5F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5178293D342900843B5F /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		9C6B5170293D28CC00843B5F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9C6B5172293D28EB00843B5F /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 		9C6B5174293D290700843B5F /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		9C6B5176293D2D0B00843B5F /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		9C6B5178293D342900843B5F /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 			children = (
 				9C6B5162293D281200843B5F /* CircleBackground.swift */,
 				9C6B5164293D282C00843B5F /* StatusUI.swift */,
+				9C6B5178293D342900843B5F /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				9C6B5166293D284400843B5F /* TicketData.swift */,
 				9C6B5168293D286200843B5F /* PosterData.swift */,
+				9C6B5176293D2D0B00843B5F /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				9C6B5159293D26FE00843B5F /* Ticket.swift in Sources */,
 				9C6B5175293D290700843B5F /* TicketView.swift in Sources */,
 				9C6B5171293D28CC00843B5F /* RoundButton.swift in Sources */,
+				9C6B5179293D342900843B5F /* CustomTabBar.swift in Sources */,
 				9C6B5163293D281200843B5F /* CircleBackground.swift in Sources */,
+				9C6B5177293D2D0B00843B5F /* TabData.swift in Sources */,
 				9C6B514A293D26CC00843B5F /* movie_ticket_appApp.swift in Sources */,
 				9C6B5165293D282C00843B5F /* StatusUI.swift in Sources */,
 				9C6B516D293D289700843B5F /* DateButton.swift in Sources */,
