@@ -10,6 +10,11 @@ import SwiftUI
 struct HomeView: View {
     @State var animate = false   
     
+    @State var posters1: [String] = ["poster1", "poster2", "poster3", "poster4", "poster5", "poster6"]
+
+    @State var posters2: [String] = ["poster7", "poster8", "poster9", "poster10", "poster11", "poster12"]
+
+    @State var posters3: [String] = ["poster13", "poster14", "poster15", "poster16", "poster17", "poster18"]
     
     var body: some View {
         ZStack {
@@ -36,6 +41,15 @@ struct HomeView: View {
                 CustomSearchBar()
                     .padding(EdgeInsets(top: 30, leading: 20, bottom: 20, trailing: 20))
                 
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 20.0) {
+                        ScrollSection(title: "Now Playing", posters: posters1)
+                        ScrollSection(title: "Coming Soon", posters: posters2)
+                        ScrollSection(title: "Top Movies", posters: posters3)
+                        ScrollSection(title: "Favorites", posters: posters1)
+                    }
+                    .padding(.bottom, 70)
+                }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }

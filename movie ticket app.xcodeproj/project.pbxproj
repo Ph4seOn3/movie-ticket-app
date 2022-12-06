@@ -28,6 +28,7 @@
 		9C6B5179293D342900843B5F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5178293D342900843B5F /* CustomTabBar.swift */; };
 		9C6B517B293EEA6100843B5F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517A293EEA6100843B5F /* HomeView.swift */; };
 		9C6B517D293EECB900843B5F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517C293EECB900843B5F /* CustomSearchBar.swift */; };
+		9C6B517F293EEEEE00843B5F /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517E293EEEEE00843B5F /* ScrollSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		9C6B5178293D342900843B5F /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9C6B517A293EEA6100843B5F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9C6B517C293EECB900843B5F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		9C6B517E293EEEEE00843B5F /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				9C6B5164293D282C00843B5F /* StatusUI.swift */,
 				9C6B5178293D342900843B5F /* CustomTabBar.swift */,
 				9C6B517C293EECB900843B5F /* CustomSearchBar.swift */,
+				9C6B517E293EEEEE00843B5F /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				9C6B516B293D287E00843B5F /* TimeButton.swift in Sources */,
 				9C6B5161293D27AC00843B5F /* utils.swift in Sources */,
+				9C6B517F293EEEEE00843B5F /* ScrollSection.swift in Sources */,
 				9C6B5167293D284400843B5F /* TicketData.swift in Sources */,
 				9C6B516F293D28AF00843B5F /* CircleButton.swift in Sources */,
 				9C6B514C293D26CC00843B5F /* ContentView.swift in Sources */,

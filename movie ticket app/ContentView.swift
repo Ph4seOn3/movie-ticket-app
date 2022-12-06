@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0.0) {
             TabView(selection: $currentTab) {
-                Text("Home")
+                HomeView()
                     .tag(Tab.home)
                 
                 Text("Location")
