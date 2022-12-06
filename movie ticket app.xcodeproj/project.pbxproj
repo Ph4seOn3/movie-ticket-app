@@ -29,6 +29,7 @@
 		9C6B517B293EEA6100843B5F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517A293EEA6100843B5F /* HomeView.swift */; };
 		9C6B517D293EECB900843B5F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517C293EECB900843B5F /* CustomSearchBar.swift */; };
 		9C6B517F293EEEEE00843B5F /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517E293EEEEE00843B5F /* ScrollSection.swift */; };
+		9C6B5181293EF39800843B5F /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5180293EF39800843B5F /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		9C6B517A293EEA6100843B5F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9C6B517C293EECB900843B5F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		9C6B517E293EEEEE00843B5F /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		9C6B5180293EF39800843B5F /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				9C6B5174293D290700843B5F /* TicketView.swift */,
 				9C6B517A293EEA6100843B5F /* HomeView.swift */,
+				9C6B5180293EF39800843B5F /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				9C6B5159293D26FE00843B5F /* Ticket.swift in Sources */,
 				9C6B5175293D290700843B5F /* TicketView.swift in Sources */,
 				9C6B5171293D28CC00843B5F /* RoundButton.swift in Sources */,
+				9C6B5181293EF39800843B5F /* BookingView.swift in Sources */,
 				9C6B5179293D342900843B5F /* CustomTabBar.swift in Sources */,
 				9C6B517B293EEA6100843B5F /* HomeView.swift in Sources */,
 				9C6B5163293D281200843B5F /* CircleBackground.swift in Sources */,
