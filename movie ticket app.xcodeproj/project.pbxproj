@@ -30,6 +30,7 @@
 		9C6B517D293EECB900843B5F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517C293EECB900843B5F /* CustomSearchBar.swift */; };
 		9C6B517F293EEEEE00843B5F /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B517E293EEEEE00843B5F /* ScrollSection.swift */; };
 		9C6B5181293EF39800843B5F /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B5180293EF39800843B5F /* BookingView.swift */; };
+		9CDBF45F293F99D4008AADB3 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDBF45E293F99D4008AADB3 /* SeatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		9C6B517C293EECB900843B5F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		9C6B517E293EEEEE00843B5F /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		9C6B5180293EF39800843B5F /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		9CDBF45E293F99D4008AADB3 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				9C6B5174293D290700843B5F /* TicketView.swift */,
 				9C6B517A293EEA6100843B5F /* HomeView.swift */,
 				9C6B5180293EF39800843B5F /* BookingView.swift */,
+				9CDBF45E293F99D4008AADB3 /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				9C6B5177293D2D0B00843B5F /* TabData.swift in Sources */,
 				9C6B514A293D26CC00843B5F /* movie_ticket_appApp.swift in Sources */,
 				9C6B5165293D282C00843B5F /* StatusUI.swift in Sources */,
+				9CDBF45F293F99D4008AADB3 /* SeatsView.swift in Sources */,
 				9C6B516D293D289700843B5F /* DateButton.swift in Sources */,
 				9C6B5173293D28EB00843B5F /* LargeButton.swift in Sources */,
 				9C6B515B293D271A00843B5F /* Tickets.swift in Sources */,

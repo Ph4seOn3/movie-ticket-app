@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BookingView: View {
+    @Environment(\.dismiss) var dismiss
     
     @State var gradient = [Color("backgroundColor2").opacity(0), Color("backgroundColor2"), Color("backgroundColor2"), Color("backgroundColor2")]
     @State var  selectedHour = false
@@ -31,7 +32,9 @@ struct BookingView: View {
                 
                 VStack(spacing: 0.0) {
                     HStack {
-                        CircleButton(action: {}, image: "arrow.left")
+                        CircleButton(action: {
+                            dismiss()
+                        }, image: "arrow.left")
                         
                         Spacer()
                         
